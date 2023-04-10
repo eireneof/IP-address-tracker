@@ -10,7 +10,7 @@
 #banner {
     display:flex;
     background-color: transparent;
-    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.3);
 }
 
 #banner-desktop {
@@ -33,6 +33,7 @@
     justify-self: center;
     align-self: center;
     display: flex;
+    top: 50px;
 }
 
 .center-items {
@@ -42,6 +43,7 @@
 }
 
 #title {
+    font-size: 2rem;
     color: $white;
 }
 
@@ -51,4 +53,8 @@
 
 .mt-2 {
     margin-top: 2rem;
+}
+
+.pd-2 {
+    padding-top: 2rem;
 }

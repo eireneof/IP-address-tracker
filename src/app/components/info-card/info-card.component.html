@@ -1,1 +1,21 @@
-<p>info-card works!</p>
+<section #cardInfos class="card">
+    <div class="card-content">
+        <div id="ipAdress" class="sub-section border-left">
+            <p class="sub-title">IP ADDRESS</p>
+            <p class="txt-info">{{ IPInfos.ipAdress }}</p>
+        </div>
+        <div id="location" class="sub-section border-left">
+            <p class="sub-title">LOCATION</p>
+            <p class="txt-info">{{ IPInfos.location }}</p>
+        </div>
+        <div id="timezone" class="sub-section border-left">
+            <p class="sub-title">TIMEZONE</p>
+            <p class="txt-info">{{ IPInfos.timeZone }}</p>
+        </div>
+        <div id="isp" class="sub-section">
+            <p class="sub-title">ISP</p>
+            <p class="txt-info">{{ IPInfos.isp }}</p>
+        </div>
+    </div>
+</section>
+  
