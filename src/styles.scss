@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+@import "styles/colors.scss";
+@import "styles/fonts.scss";
+@import "styles/mixin.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  $teste: #0000;
+}
+
+html,
+body,
+main {
+  height: 100%;
+}
+
+body {
+    font: 18px "Josefin Sans", sans-serif;
+  }
+
