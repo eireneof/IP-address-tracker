@@ -1,18 +1,28 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MapsComponent } from './maps/maps.component';
+import { InputComponent } from './input/input.component';
+import { InfoCardComponent } from './info-card/info-card.component';
+import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask'
 
 
 
 @NgModule({
   declarations: [
-    MapsComponent
+    MapsComponent,
+    InputComponent,
+    InfoCardComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    NgxMaskDirective, 
+    NgxMaskPipe,
   ],
   exports: [
-    MapsComponent
-  ]
+    MapsComponent,
+    InputComponent,
+    InfoCardComponent
+  ],
+  providers: [provideNgxMask()]
 })
 export class ComponentsModule { }

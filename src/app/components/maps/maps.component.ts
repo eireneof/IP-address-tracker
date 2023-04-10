@@ -11,7 +11,7 @@ import * as L from 'leaflet';
 export class MapsComponent implements AfterViewInit {
 
   private map: any;
-  
+
   constructor() { }
   
 

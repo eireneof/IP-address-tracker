@@ -1,0 +1,54 @@
+@import "../../styles/mixin.scss";
+@import "../../styles/colors.scss";
+
+#ip-tracker {
+    display: grid;
+    height: 40vh;
+    position: relative;
+}
+
+#banner {
+    display:flex;
+    background-color: transparent;
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+#banner-desktop {
+    // width: 100%;
+    min-width: &desktop-screen;
+    @include mobile-screen {
+        display: none;
+    }
+}
+
+#banner-mobile {
+    @include desktop-screen {
+        display: none;
+    }
+}
+
+#form {
+    position: absolute;
+    z-index: 1;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+}
+
+.center-items {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title {
+    color: $white;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
