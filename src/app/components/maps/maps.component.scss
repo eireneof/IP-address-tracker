@@ -1,25 +1,6 @@
 @import "../../../styles/mixin.scss";
-// .map-container {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     bottom: 0;
-//     margin: 30px;
-//   }
-  
-//   .map-frame {
-//     border: 2px solid black;
-//     height: 100%;
-//   }
   
   #map {
+      z-index: -1;
       height: $desktop-screen;
-    // color: $teste;
-    // @include mobile-screen {
-    //     height: $mobile-screen;
-    // }
-
-    // @include desktop-screen {
-    // }
   }
