@@ -31,7 +31,8 @@ Seus usuários devem ser capazes de:
 
 ## O que estou fazendo agora? :computer::sparkles:
 
-- Estruturando as telas (layout, organização de pastas e componentes, estilos globais)
+- [X] Estruturando as telas (layout, organização de pastas e componentes, estilos globais) `[10/04/2023]`
+- [ ] Ajustes na responsividade
 
 ## Como rodar o projeto? 
 
