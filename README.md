@@ -32,6 +32,8 @@ Seus usuários devem ser capazes de:
 ## O que estou fazendo agora? :computer::sparkles:
 
 - [X] Estruturando as telas (layout, organização de pastas e componentes, estilos globais) `[10/04/2023]`
+- [x] Renderização do mapa na tela `[10/04/2023]`
+- [X] Chamada de serviço para pegar as informações do IP `[11/04/2023]`
 - [ ] Ajustes na responsividade
 
 ## Como rodar o projeto? 
