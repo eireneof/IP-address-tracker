@@ -34,6 +34,10 @@ Seus usuários devem ser capazes de:
 - [X] Estruturando as telas (layout, organização de pastas e componentes, estilos globais) `[10/04/2023]`
 - [x] Renderização do mapa na tela `[10/04/2023]`
 - [X] Chamada de serviço para pegar as informações do IP `[11/04/2023]`
+- [X] Modal de loading entre a chamada do serviço e resposta obtida `[18/04/2023]`
+- [X] Atualização do card de informações com as informações do IP fornecido `[18/04/2023]`
+- [X] Validação e mensagem de erro no input `[18/04/2023]`
+- [ ] Busca de coordenadas para serem setadas no mapa de acordo com o endereço do IP fornecido
 - [ ] Ajustes na responsividade
 
 ## Como rodar o projeto? 
