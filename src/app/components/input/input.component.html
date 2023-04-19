@@ -1,11 +1,25 @@
 <div id="input-container">
     <input
+        #inputvalue
         class="input-size"
         [type]="'text'"
-        [mask]="'000.000.000.000'"
+        [mask]="'099.099.099.099'"
+        [(ngModel)]="inputValue"
+        [class.error]="inputError"
+        (ngModelChange)="onInputChange($event)"
     >
-    <button id="submit-button" type="submit" class="input-size">
+    <button 
+        id="submit-button" 
+        type="submit" 
+        class="input-size"
+        (click)="submit()"
+        [class.error]="inputError"
+        >
         <img src="../../../assets/images/icon-arrow.svg" alt="">
     </button>
+
+    <div *ngIf="inputError" class="error-message">
+        Invalid value. Please enter an IP address in the format '000.000.000.000'.
+    </div>
 
 </div>

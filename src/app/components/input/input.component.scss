@@ -34,3 +34,21 @@ button {
         background-color: $dark-gray;
     }
 }
+
+.error {
+    border: 2px solid red;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: white;
+    height: 50px;
+    border-radius: 3px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid red;
+    opacity: 0.85;
+  }
+  

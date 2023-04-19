@@ -1,3 +1,5 @@
+<app-loading-modal #loadingModal></app-loading-modal>
+
 <main id="ip-tracker">
     <section id="banner">
         <img id="banner-desktop" src="../../assets/images/pattern-bg-desktop.png" alt="Banner with purple background and cyan accents">
@@ -6,8 +8,8 @@
     
     <section id="form" class="center-items pd-2">
         <h1 id="title" class="mb-2 mt-2">IP Address Tracker</h1>
-        <app-input class="mb-2"></app-input>
-        <app-info-card class="mb-2 mt-2"></app-info-card>
+        <app-input class="mb-2" (inputValueEmitter)="searchIPInfos($event)"></app-input>
+        <app-info-card class="mb-2 mt-2" [IPInfos]="IPInfos"></app-info-card>
     </section>
 </main>
 
