@@ -4,4 +4,8 @@ export class As {
     route: string = '';
     domain: string = '';
     type: string = '';
+
+    constructor(init?:Partial<As>) {
+        Object.assign(this, init);
+    }
 }

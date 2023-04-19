@@ -3,4 +3,10 @@ export class IPAddressInfos {
     location: string = '';
     timeZone: string = '';
     isp: string = '';
+
+
+    constructor(init?:Partial<IPAddressInfos>) {
+        Object.assign(this, init);
+    }
+    
 }
