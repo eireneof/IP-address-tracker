@@ -1,0 +1,77 @@
+@import "../../../styles/colors.scss";
+
+* {
+    line-height: 24px;
+  }
+  .container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  
+    background: rgba(30, 31, 33, 0.4) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    .modal-container-s {
+      display: inline;
+      text-align: center;
+      max-width: 160px;
+      max-height: 160px;
+      padding: 5px;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border-radius: 16px;
+      .interacoes-container {
+        padding-left: 24px;
+        padding-right: 24px;
+        p{
+          text-align: center;
+          font-size: 14px;
+          letter-spacing: 0.22px;
+          color: #636466;
+          padding-top: 8px;
+          padding-bottom: 8px;
+        }
+      }
+    }
+  }
+  
+  
+  
+  @keyframes ldio-myswm72dkd {
+    0% { transform: rotate(0deg) }
+    50% { transform: rotate(180deg) }
+    100% { transform: rotate(360deg) }
+  }
+  .ldio-myswm72dkd div {
+    position: absolute;
+    animation: ldio-myswm72dkd 1s linear infinite;
+    width: 88px;
+    height: 88px;
+    top: 11px;
+    left: 11px;
+    border-radius: 50%;
+    box-shadow: 0 2.2px 0 0 $very-dark-gray;
+    transform-origin: 44px 45.1px;
+    box-sizing: content-box;
+  }
+  .loadingio-spinner-eclipse-6kcw5yhvo4w {
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+  }
+  .ldio-myswm72dkd {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0; /* see note above */
+  }
+  

@@ -4,6 +4,8 @@ import { MapsComponent } from './maps/maps.component';
 import { InputComponent } from './input/input.component';
 import { InfoCardComponent } from './info-card/info-card.component';
 import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoadingModalComponent } from './loading-modal/loading-modal.component';
 
 
 
@@ -11,17 +13,22 @@ import { NgxMaskDirective, NgxMaskPipe, provideNgxMask } from 'ngx-mask'
   declarations: [
     MapsComponent,
     InputComponent,
-    InfoCardComponent
+    InfoCardComponent,
+    LoadingModalComponent
   ],
   imports: [
     CommonModule,
     NgxMaskDirective, 
     NgxMaskPipe,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [
     MapsComponent,
     InputComponent,
-    InfoCardComponent
+    InfoCardComponent,
+    LoadingModalComponent
+
   ],
   providers: [provideNgxMask()]
 })
